@@ -1,0 +1,10 @@
+plugins {
+    id("java")
+}
+
+group = "me.sworroo"
+version = "1.0-SNAPSHOT"
+
+dependencies {
+    compileOnly fileTree("libs/")
+}

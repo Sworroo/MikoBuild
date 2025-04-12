@@ -1,0 +1,14 @@
+name: MikoBuild
+main: me.sworroo.MikoBuildPlugin
+version: 1.1
+api-version: 1.12
+depend: [WorldEdit]
+commands:
+  miko:
+    description: Создание построек с помощью ИИ в выделенном WorldEdit регионе
+    usage: /miko [запрос]
+    permission: mikobuild.use
+permissions:
+  mikobuild.use:
+    description: Позволяет использовать команду /miko
+    default: op
